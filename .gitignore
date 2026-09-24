@@ -1,0 +1,74 @@
+# ==========================================
+# 1. SQLite Database Files
+# ==========================================
+# Ignore local SQLite database files (stores runtime data)
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# ==========================================
+# 2. Node.js & Dependencies
+# ==========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# ==========================================
+# 3. Environment Variables & Secrets
+# ==========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+
+# ==========================================
+# 4. Vite / Build Outputs
+# ==========================================
+dist/
+dist-ssr/
+build/
+*.local
+
+# ==========================================
+# 5. Editor & OS Specific Files
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.lsbundle
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs (VS Code, WebStorm, etc.)
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ==========================================
+# 6. Testing & Logs
+# ==========================================
+coverage/
+*.lcov
+.nyc_output
+logs/
+*.log
